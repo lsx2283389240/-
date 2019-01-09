@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>风车</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: #f7f7f7;
+		}
+		.box{
+			width: 400px;
+			margin: 100px auto;
+			animation: rotate 4s linear infinite;
+		}
+		img{
+			width: 100%;
+			display: block;
+		}
+		@keyframes rotate{
+			from{
+				transform: rotateZ(0deg);
+			}
+			to{
+				transform: rotateZ(-360deg);
+			}
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<img src="imgs/fc.gif">
+	</div>
+</body>
+</html>

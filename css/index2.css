@@ -1,0 +1,30 @@
+a:hover{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+img ,.side-bar.list-group-item,.side-bar-card{
+    border-radius: 3px;
+}
+.navbar-brand{
+    background-image: url(../images/41.jpg);
+    width: 50px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.navbar-default {
+    background-color: #000000;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a {
+   color: #fff;
+   }
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+
+    color:#efe6e6;
+    background-color: transparent;
+
+}

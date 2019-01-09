@@ -1,0 +1,67 @@
+.rollBox{
+		/*width:44rem;*/
+		width: 70%;
+		overflow:hidden;
+		padding:0.0625rem 0 0.3125rem 0.375rem;
+		margin: 1.25rem auto;
+		}@media(max-width:800px){
+			.rollBox{
+				display: none;
+			}
+		}
+.rollBox .LeftBotton{height:3.25rem;
+					/*width:1.1875rem;*/
+					width: 3%;
+					background: url('../imgs/lr.gif')no-repeat 0.3125rem 0;
+					overflow:hidden;
+					float:left;
+					display:inline;
+					margin:1.5625rem 0 0 0;
+					cursor:pointer;
+					/*}@media(max-width:800px){
+						.rollBox .LeftBotton{
+							background: url('../imgs/lr.gif')no-repeat 0rem 0;
+						}*/
+					}
+.rollBox .RightBotton{
+					height:3.25rem;
+					/*width:1.25rem;*/
+					width: 3%;
+					background:url('../imgs/lr.gif') no-repeat -0.9375rem 0;
+					overflow:hidden;
+					float:left;
+					display:inline;
+					margin:1.5625rem 0 0 0;
+					cursor:pointer;}
+.rollBox .Cont{
+				/*width:41.375rem;*/
+				width: 92%;
+				overflow:hidden;
+				float:left;
+				/*margin-left: 0.5rem;*/
+				}
+.rollBox .ScrCont{width:625000rem;}
+.rollBox .Cont .pic{width:8.25rem;
+					float:left;
+					text-align:center;
+					/*}@media(max-width:800px){
+						.rollBox .Cont .pic{
+							width: 4.5rem;
+							
+						}*/
+					}
+					
+.rollBox .Cont .pic img{padding:0.25rem;
+						background:#fff;
+						border:1px solid #ccc;
+						display:block;
+						margin:0 auto;
+						width: 85%;
+						height: 100%;}
+.rollBox .Cont .pic p{line-height:1.625rem;
+						color:#505050;}
+.rollBox .Cont a:link,.rollBox .Cont a:visited{color:#626466;
+											text-decoration:none;}
+.rollBox .Cont a:hover{color:#f00;
+						text-decoration:underline;}
+.rollBox #List1,.rollBox #List2{float:left;}
